@@ -1,0 +1,11 @@
+H:\口译实训平台\代码\Interpretation\Model\bin\Debug\Model.dll
+H:\口译实训平台\代码\Interpretation\Model\bin\Debug\Model.pdb
+H:\口译实训平台\代码\Interpretation\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+H:\口译实训平台\代码\Interpretation\Model\obj\Debug\Model.dll
+H:\口译实训平台\代码\Interpretation\Model\obj\Debug\Model.pdb
+H:\口译实训平台\代码\git\Interpretation\Model\bin\Debug\Model.dll
+H:\口译实训平台\代码\git\Interpretation\Model\bin\Debug\Model.pdb
+H:\口译实训平台\代码\git\Interpretation\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+H:\口译实训平台\代码\git\Interpretation\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+H:\口译实训平台\代码\git\Interpretation\Model\obj\Debug\Model.dll
+H:\口译实训平台\代码\git\Interpretation\Model\obj\Debug\Model.pdb

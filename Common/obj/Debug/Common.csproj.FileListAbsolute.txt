@@ -1,0 +1,15 @@
+H:\口译实训平台\代码\Interpretation\Common\bin\Debug\Common.dll
+H:\口译实训平台\代码\Interpretation\Common\bin\Debug\Common.pdb
+H:\口译实训平台\代码\Interpretation\Common\bin\Debug\AutoMapper.dll
+H:\口译实训平台\代码\Interpretation\Common\bin\Debug\AutoMapper.xml
+H:\口译实训平台\代码\Interpretation\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+H:\口译实训平台\代码\Interpretation\Common\obj\Debug\Common.dll
+H:\口译实训平台\代码\Interpretation\Common\obj\Debug\Common.pdb
+H:\口译实训平台\代码\git\Interpretation\Common\bin\Debug\Common.dll
+H:\口译实训平台\代码\git\Interpretation\Common\bin\Debug\Common.pdb
+H:\口译实训平台\代码\git\Interpretation\Common\bin\Debug\AutoMapper.dll
+H:\口译实训平台\代码\git\Interpretation\Common\bin\Debug\AutoMapper.xml
+H:\口译实训平台\代码\git\Interpretation\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
+H:\口译实训平台\代码\git\Interpretation\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+H:\口译实训平台\代码\git\Interpretation\Common\obj\Debug\Common.dll
+H:\口译实训平台\代码\git\Interpretation\Common\obj\Debug\Common.pdb
