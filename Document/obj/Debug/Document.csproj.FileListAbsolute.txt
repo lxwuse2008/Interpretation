@@ -9,3 +9,4 @@ H:\口译实训平台\代码\git\Interpretation\Document\obj\Debug\Document.cspr
 H:\口译实训平台\代码\git\Interpretation\Document\obj\Debug\Document.csproj.CoreCompileInputs.cache
 H:\口译实训平台\代码\git\Interpretation\Document\obj\Debug\Document.dll
 H:\口译实训平台\代码\git\Interpretation\Document\obj\Debug\Document.pdb
+H:\口译实训平台\代码\Interpretation\Document\obj\Debug\Document.csprojResolveAssemblyReference.cache
