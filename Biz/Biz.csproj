@@ -42,7 +42,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Base\BaseBiz.cs" />
-    <Compile Include="Base\BaseDocument.cs" />
     <Compile Include="Base\IBaseBiz.cs" />
     <Compile Include="Impl\DemoBiz.cs" />
     <Compile Include="Interface\IDemoBiz.cs" />

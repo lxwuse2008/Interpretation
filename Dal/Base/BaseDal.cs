@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using Base.Document;
 using System.Data.SqlClient;
 using DapperExtensions;
+using System.Configuration;
 
 namespace Dal.Base
 {
@@ -18,7 +19,7 @@ namespace Dal.Base
             mapper = new Mapper();
         }
 
-        public virtual string ConnectionKey => "Data Source=LXWUSE2008-PC;Initial Catalog=demo;;User ID=sa;Pwd=123456";
+        public virtual string ConnectionKey => ConfigurationManager.AppSettings["ConnectionKey"];
 
         public int Add<T>(T t)
         {
