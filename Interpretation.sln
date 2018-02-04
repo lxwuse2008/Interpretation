@@ -20,7 +20,6 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "doc", "doc", "{D10AF386-26A4-4B8F-9B1A-9D0C604A9CCE}"
 	ProjectSection(SolutionItems) = preProject
 		demo.sql = demo.sql
-		C:\Users\liuxiang\Desktop\系统结构图.xlsx = C:\Users\liuxiang\Desktop\系统结构图.xlsx
 	EndProjectSection
 EndProject
 Global
