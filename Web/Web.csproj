@@ -166,6 +166,43 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\css\index.css" />
+    <Content Include="Content\css\layout.css" />
+    <Content Include="Content\css\register.css" />
+    <Content Include="Content\image\bg-01.jpg" />
+    <Content Include="Content\image\bg-02.jpg" />
+    <Content Include="Content\image\ico-01.png" />
+    <Content Include="Content\image\ico-02.png" />
+    <Content Include="Content\image\ico-03.png" />
+    <Content Include="Content\image\ico-04.png" />
+    <Content Include="Content\image\ico-05.png" />
+    <Content Include="Content\image\ico-06.png" />
+    <Content Include="Content\image\ico-07.png" />
+    <Content Include="Content\image\ico-08.png" />
+    <Content Include="Content\image\ico-09-1.png" />
+    <Content Include="Content\image\ico-09.png" />
+    <Content Include="Content\image\ico-10-1.png" />
+    <Content Include="Content\image\ico-10.png" />
+    <Content Include="Content\image\ico-11-1.png" />
+    <Content Include="Content\image\ico-11.png" />
+    <Content Include="Content\image\ico-12-1.png" />
+    <Content Include="Content\image\ico-12.png" />
+    <Content Include="Content\image\ico-13-1.png" />
+    <Content Include="Content\image\ico-13.png" />
+    <Content Include="Content\image\ico-14-1.png" />
+    <Content Include="Content\image\ico-14.png" />
+    <Content Include="Content\image\ico-15-1.png" />
+    <Content Include="Content\image\ico-15.png" />
+    <Content Include="Content\image\ico-16-1.png" />
+    <Content Include="Content\image\ico-16.png" />
+    <Content Include="Content\image\ico-17-1.png" />
+    <Content Include="Content\image\ico-17.png" />
+    <Content Include="Content\image\ico-18.png" />
+    <Content Include="Content\image\ico-19.png" />
+    <Content Include="Content\image\ico-20.png" />
+    <Content Include="Content\image\ico-21.png" />
+    <Content Include="Content\image\ico-24.png" />
+    <Content Include="Content\image\img-01.png" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -179,6 +216,7 @@
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
     <None Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.9.1.js" />
     <Content Include="Scripts\jquery.validate.js" />
     <Content Include="Scripts\jquery.validate.min.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
@@ -200,11 +238,11 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Authorition\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
-    <Folder Include="Views\Authorition\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />

@@ -1,0 +1,43 @@
+/*登入*/
+body{ background: url(../image/bg-01.jpg) center 0 no-repeat; display:flex; align-items: center; }
+.sign-in-out{ width:500px; margin:0 auto; text-align:center; }
+.sign-in-out h3{ font-size:36px; color:#fff;}
+.sign-in-out .in-box-out{ background:#fff; border-radius:5px; padding:40px 70px 52px 70px; overflow:hidden;}
+.sign-in-out .in-box-out .input-box{ height:56px; width:360px; border:1px solid #6f96e4; border-radius:5px; text-align:left; margin-top:16px; padding-right:15px; overflow:hidden; float:left;}
+.sign-in-out .in-box-out .input-box .input-01{ float:left; font-size:17px; background:#fff;  margin:0 15px; width:272px;  line-height:54px; height:54px; font-family:"SimSun";}
+.sign-in-out .in-box-out .input-box .ico-01{ float:right; width:27px; height:27px; background:url(../image/ico-03.png) 0 0 no-repeat;  margin-top:13px;}
+.sign-in-out .in-box-out .input-box .ico-02{ float:right;width:24px; height:29px; background:url(../image/ico-04.png) 0 0 no-repeat;  margin-top:10px;}
+.sign-in-out .in-box-out .input-box-2{height:56px; width:225px; border:1px solid #6f96e4; border-radius:5px; text-align:left; margin-top:16px; padding-right:10px; float:left; overflow:hidden;}
+.sign-in-out .in-box-out .input-box-2 .input-01{ float:left; font-size:17px; background:#fff; width:106px;  margin:0 15px;  line-height:54px; height:54px; font-family:"SimSun";}
+.sign-in-out .in-box-out .input-box-2 .code{ float:right; width:76px; height:24px; margin-top:18px;}
+.sign-in-out .in-box-out .input-box-2 .code img{ width:76px; height:24px;}
+.sign-in-out .in-box-out .p-01{ float:right; line-height:56px; font-size:15px; color:#010101; margin-top:16px; font-family:"SimSun";}
+.sign-in-out .in-box-out .p-01 a{ color:#658ee0;}
+.sign-in-out .in-box-out .sign-in-a{ height:56px; line-height:56px; width:360px; color:#fff; background:#fa8300; font-size:18px; float:left ;border-radius:5px; margin-top:16px;  font-family:"SimSun";}
+.sign-in-out .in-box-out .sign-in-a:hover{ text-decoration:none;}
+.sign-in-out .in-box-out .error-p{ float:left;}
+.sign-in-out .recording-test{ color:#fff; text-decoration:underline; font-size:18px; margin-top:75px; display:block;}
+.copyright-out{ text-align:center; bottom:20px; left:0; position:absolute; width:100%;}
+.copyright-out p{ font-size:12px; color:#fff;}
+
+/*placeholder默认提示文字颜色*/
+::-webkit-input-placeholder {
+/* WebKit browsers */
+color: #a2a2a2;
+opacity: 1;
+}
+:-moz-placeholder {
+/* Mozilla Firefox 4 to 18 */
+color: #a2a2a2;
+opacity: 1;
+}
+::-moz-placeholder {
+/* Mozilla Firefox 19+ */
+color: #a2a2a2;
+opacity: 1;
+}
+:-ms-input-placeholder {
+/* Internet Explorer 10+ */
+color: #a2a2a2;
+opacity: 1;
+}

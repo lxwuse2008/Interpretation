@@ -1,0 +1,184 @@
+@charset "utf-8";
+html{height: 100%;width: 100%;}
+body{margin: 0; padding: 0; text-align: left; font-family:"Arial","Microsoft YaHei"; font-size: 16px; color: #666; line-height: 1.42857; height:100%; background:#e9eff5;}
+div, dl, dt, dd, ul, ol, li,
+h1, h2, h3, h4, h5, h6,
+pre, code, form, input, button,
+textarea, p, blockquote,
+th, td, address,
+fieldset, legend,img
+{
+    padding: 0;
+    margin: 0;
+	border: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-size: inherit;
+    font-weight: normal;
+}
+table {
+    border-collapse:collapse;
+}
+em {
+    font-style: normal;
+    font-weight: normal;
+}
+textarea {
+    resize: none;
+}
+li, ol {
+    list-style: none;
+}
+a {
+	
+	color: #666;
+	text-decoration: none;
+}
+a:hover {
+	color: #6287d5;
+	text-decoration: underline;
+}
+
+input,textarea,select {
+font-size:16px;
+color: #666;
+font-family: "Arial","Microsoft YaHei";
+}
+
+/**Start Float Clear**/
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.clearfix {
+    display: inline-block;
+}
+* html .clearfix {
+    height: 1%;
+}
+.clearfix {
+    display: block;
+}
+/**End Float Clear**/
+
+/*text-ellipsis*/
+.text-ellipsis {
+	display: block;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+/*end text-ellipsis*/
+
+/*禁止chrome为被激活的输入框添加边框*/
+*:focus {
+outline: none
+}
+
+/*placeholder默认提示文字颜色*/
+::-webkit-input-placeholder {
+/* WebKit browsers */
+color: ##999999;
+opacity: 1;
+}
+:-moz-placeholder {
+/* Mozilla Firefox 4 to 18 */
+color: ##999999;
+opacity: 1;
+}
+::-moz-placeholder {
+/* Mozilla Firefox 19+ */
+color: ##999999;
+opacity: 1;
+}
+:-ms-input-placeholder {
+/* Internet Explorer 10+ */
+color: ##999999;
+opacity: 1;
+}
+/*真实宽高度*/
+* {
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+/*禁止ie10+ 输入框有删除和显示密码图标*/
+input::-ms-clear,
+input::-ms-reveal {
+display: none;
+}
+
+.container {
+	width: 100%;
+	height:100%;
+	margin: 0 auto;
+}
+/*间距*/
+.mt10{ margin-top:10px;}
+.mt20{ margin-top:20px;}
+.mt30{ margin-top:30px;}
+.mt40{ margin-top:40px;}
+.mt50{ margin-top:50px;}
+
+.button-an{height:40px;line-height:40px;font-size:18px;border-radius:3px;color:#fff;}
+
+/*错误提示*/
+.error-p{ color:#ff6155; font-size:12px; background:url(../image/ico-02.png) 0  center no-repeat; padding-left:18px; text-align:left; margin-top:15px; width:100%;}
+
+/*通用头部*/
+.head-nav{ background:url(../image/bg-02.jpg) center 0 no-repeat; height:80px; width:100%; line-height:80px; padding:0 60px 0 30px;color:#fff;}
+.head-nav .logo-box{ float:left;  font-size:30px;}
+.head-nav .right-info{ float:right; color:#fff;}
+.head-nav .right-info li{ float:left; margin-right:32px;}
+.head-nav .right-info li a{ color:#fff;}
+.head-nav .right-info .li-01{ padding-left:30px; background:url(../image/ico-05.png) 0 center no-repeat;}
+.head-nav .right-info .li-02{ padding-left:26px; background:url(../image/ico-07.png) 0 center no-repeat;}
+.head-nav .right-info .li-03{ padding-left:20px; background:url(../image/ico-08.png) 0 center no-repeat;}
+.head-nav .right-info .li-04{ padding-left:22px; background:url(../image/ico-06.png) 0 center no-repeat;}
+
+/*通用左导航*/
+.left-nav{ float:left; width:245px; height:100%; background:#2f416a;}
+.left-nav .in-box{ float:left; width:100%;background:#2f416a;}
+.left-nav .in-box .in-sp{ height:58px; width:100%; font-size:20px; color:#cacccf; line-height:58px; padding-left:60px; float:left; position:relative;}
+.left-nav .in-box .in-sp em{ width:16px; height:9px; background:url(../image/ico-24.png) 0 0 no-repeat; float:right; margin-right:67px; margin-top:23px;}
+.left-nav .in-box a{ color:#cacccf;width:100%; height:100%; float:left;}
+.left-nav .in-box a:hover{ text-decoration:none;}
+
+.left-nav .in-box .ico-01{ background:url(../image/ico-09.png) 30px center no-repeat;}
+.left-nav .in-box-active .ico-01{ background:url(../image/ico-09-1.png) 30px center no-repeat #202c4a;}
+.left-nav .in-box .ico-01 em{ width:11px; height:16px; background:url(../image/ico-19.png) 0 0 no-repeat; position:absolute; right:0; top:22px; margin:0; display:none;}
+
+
+.left-nav .in-box .ico-02{ background:url(../image/ico-10.png) 30px center no-repeat;}
+.left-nav .in-box-active .ico-02{ background:url(../image/ico-10-1.png) 30px center no-repeat #202c4a;}
+.left-nav .in-box .ico-03{ background:url(../image/ico-11.png) 30px center no-repeat;}
+.left-nav .in-box-active .ico-03{ background:url(../image/ico-11-1.png) 30px center no-repeat #202c4a;}
+.left-nav .in-box .ico-04{ background:url(../image/ico-12.png) 30px center no-repeat;}
+.left-nav .in-box-active .ico-04{ background:url(../image/ico-12-1.png) 30px center no-repeat #202c4a;}
+.left-nav .in-box .ico-05{ background:url(../image/ico-13.png) 30px center no-repeat;}
+.left-nav .in-box-active .ico-05{ background:url(../image/ico-13-1.png) 30px center no-repeat #202c4a;}
+
+
+.left-nav .in-box .ico-06{ background:url(../image/ico-14.png) 30px center no-repeat;}
+.left-nav .in-box-active .ico-06{ background:url(../image/ico-14-1.png) 30px center no-repeat #202c4a;}
+.left-nav .in-box .ico-07{ background:url(../image/ico-15.png) 30px center no-repeat;}
+.left-nav .in-box-active .ico-07{ background:url(../image/ico-15-1.png) 30px center no-repeat #202c4a;}
+.left-nav .in-box .ico-08{ background:url(../image/ico-16.png) 30px center no-repeat;}
+.left-nav .in-box-active .ico-08{ background:url(../image/ico-16-1.png) 30px center no-repeat #202c4a;}
+.left-nav .in-box .ico-09{ background:url(../image/ico-17.png) 30px center no-repeat;}
+.left-nav .in-box-active .ico-09{ background:url(../image/ico-17-1.png) 30px center no-repeat #202c4a;}
+
+.left-nav .in-box .ul-in{ overflow:hidden; width:100%;  visibility: hidden; opacity:0; height: 0px;   }
+.left-nav .in-box .ul-in li{height:58px; line-height:58px; position:relative; } 
+.left-nav .in-box .ul-in li a{height:58px; line-height:58px; width:100%; background:url(../image/ico-20.png) 43px center no-repeat #2f416a; padding-left:60px;}
+.left-nav .in-box .ul-in li a:hover{background:url(../image/ico-21.png) 43px center no-repeat #2b3c62;}
+.left-nav .in-box .ul-in li em{ width:11px; height:16px; background:url(../image/ico-19.png) 0 0 no-repeat; position:absolute; right:0; top:22px; margin:0; display:none;}
+.left-nav .in-box .ul-in .active em{ display:block;}
+
+.left-nav .in-box-active .in-sp em{background:url(../image/ico-18.png) 0 0 no-repeat;}
+.left-nav .in-box-active .ico-01 em{ display:block; background:url(../image/ico-19.png) 0 0 no-repeat;}
+.left-nav .in-box-active .ico-05 em{ width:11px; height:16px;background:url(../image/ico-19.png) 0 0 no-repeat; position:absolute; right:0; top:22px; margin:0; display:block;}
+.left-nav .in-box-active .ul-in{ visibility: visible;    transition: all 1s;  opacity: 1;  height:auto;  }
